@@ -4,22 +4,10 @@ public class Variables {
 
 	public static void main(String[] args) {
 		
-		
-		// TODO Auto-generated method stub
-      System.out.println("Variables Concept");
+	System.out.println("Variables Concept");
       
-      String name = "Aklesh";
       
-      int age=30;
-      
-      boolean ms=true;
-      
-      double weight = 55.55;
-      
-      char c= 'm';
-      
-      // primitive
-      
+   // ************ Primitive Data Types ***************
       
       byte b=10;
       short s = 100;
@@ -31,16 +19,28 @@ public class Variables {
       char cb='m';
       boolean t =true;
       
-      // No primitive data types are classes, array and interfaces
-      
-      // Assignment  1. Diffrence between all data types
+   
+      // Assignment  1. Difference between all data types
       
       // Assignment 2. create a project BasicCoreJavaAklesh
       
+      System.out.println(" ********************** Primitive Data Types ****************");
+      System.out.println("byte :"+b);
+      System.out.println("short :"+s);
+      System.out.println("long:"+l);
+      System.out.println("int :"+i);
+      System.out.println("double :"+d);
+      System.out.println("float:"+f);
+      System.out.println("char:"+cb);
+      System.out.println("boolean :"+t);
       
+      // **********Non primitive data types are classes, array and interfaces ***************
+      // String is also non primitive data types
       
+      String name = "Aklesh Mudiraj";
       
-    		
+      System.out.println("String :"+name);
+      
       
 	}
 
